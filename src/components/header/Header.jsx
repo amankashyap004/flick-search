@@ -15,7 +15,15 @@ const Header = () => {
    const [showSearch, setShowSearch] = useState("");
    const navigate = useNavigate();
    const location = useLocation();
-   return <div>Header</div>;
+   return (
+      <header>
+         <ContentWrapper>
+            <div className="logo">
+               <img src={logo} alt="logo" />
+            </div>
+         </ContentWrapper>
+      </header>
+   );
 };
 
 export default Header;
