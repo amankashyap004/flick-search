@@ -52,7 +52,7 @@ const Carousel = ({ data, loading, endpoint, title }) => {
                onClick={() => navigation("left")}
             />
             <BsFillArrowRightCircleFill
-               className="carouselRighttNav arrow"
+               className="carouselRightNav arrow"
                onClick={() => navigation("right")}
             />
             {!loading ? (
