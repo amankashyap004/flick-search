@@ -2,6 +2,8 @@
 
 Flick Search is a web application that allows users to search for movies and get detailed information about them. It utilizes the [TMDb API](https://developer.themoviedb.org/reference/intro/getting-started/) to fetch movie data.
 
+![Flick Search Screenshot](screenshots/screenshot.png)
+
 ### Features
 
 -  Movie search: Enter a movie title to search for movies.
@@ -48,7 +50,7 @@ You can obtain an API key from the [TMDb API](https://developer.themoviedb.org/r
 npm run dev
 ```
 
-6.Open the application in your browser at `localhost`.
+6. Open the application in your browser at `localhost`.
 
 ### Technologies Used
 
