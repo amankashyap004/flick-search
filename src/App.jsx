@@ -66,7 +66,7 @@ function App() {
    };
 
    return (
-      <BrowserRouter>
+      <BrowserRouter basename="flick-search">
          <Header />
          <Routes>
             <Route path="/" element={<Home />} />
